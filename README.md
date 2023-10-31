@@ -14,7 +14,7 @@ echo 'Include /usr/local/apache2/conf/mojolicious.conf' >> httpd.conf
 
 In `httpd.conf`:
 
-```
+```apache
 #LoadModule mpm_event_module modules/mod_mpm_event.so
 LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
 ```
@@ -43,7 +43,7 @@ get '/' => sub {
 
 In `app.psgi`:
 
-```
+```perl
 use 5.036;
 
 use lib 'lib';
@@ -57,7 +57,7 @@ builder {
 
 ### Write your mod_perl apache conf
 
-```
+```apache
 LoadModule perl_module modules/mod_perl.so
 
 <VirtualHost *:80>
