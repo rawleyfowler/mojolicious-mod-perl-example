@@ -58,7 +58,6 @@ builder {
 ### Write your mod_perl apache conf
 
 ```
-LoadModule mpm_event_module modules/mod_mpm_event.so
 LoadModule perl_module modules/mod_perl.so
 
 <VirtualHost *:80>
