@@ -103,4 +103,4 @@ You can make this auto-reload if you use a volume for `lib/` against `/usr/local
 
 <hr>
 
-Originally posted on <a href="https://rawley.xyz/docker-mod-perl">My Website</a>.
+Originally posted on <a href="https://rawley.xyz/docker-mod-perl.html">My Website</a>.
